@@ -1,0 +1,17 @@
+{
+  "source_base_url": "https://wiki.blast.hk",
+  "scope": "BlastHack Wiki MoonLoader Lua: fetched /moonloader/lua/* API pages plus core MoonLoader docs",
+  "chunks_total": 752,
+  "chroma_count": 752,
+  "embedding_provider": "Google Gemini",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_format": {
+    "documents": "title: {title}\\ntext: {chunk_text}",
+    "queries": "task: search result | query: {query}"
+  },
+  "output_dimensionality": 3072,
+  "collection": "blast_moonloader_lua",
+  "chroma_dir": "/home/ubuntu/blast_moonloader_rag/output/chroma_db",
+  "pages_jsonl": "/home/ubuntu/blast_moonloader_rag/output/pages.jsonl",
+  "chunks_jsonl": "/home/ubuntu/blast_moonloader_rag/output/chunks.jsonl"
+}
